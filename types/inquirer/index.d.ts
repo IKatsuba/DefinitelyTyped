@@ -10,6 +10,7 @@
 //                 Keith Kelly <https://github.com/kwkelly>
 //                 Junyoung Clare Jang <https://github.com/Ailrun>
 //                 Richard Lea <https://github.com/chigix>
+//                 Igor Katsuba <https://github.com/IKatsuba>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 // TypeScript Version: 2.8
@@ -85,7 +86,7 @@ declare namespace inquirer {
          * </ul>
          * @defaults: 'input'
          */
-        type?: string;
+        type?: 'input' | 'number' | 'confirm' | 'list' | 'rawlist' | 'expand' | 'checkbox' | 'password' | 'editor';
         /**
          * The name to use when storing the answer in the anwers hash.
          */
